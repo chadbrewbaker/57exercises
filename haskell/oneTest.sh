@@ -7,4 +7,3 @@ echo "b sdf238h23ork" | runghc One.hs
 }
 
 diff <(testfunc) oneTest.gold
-
