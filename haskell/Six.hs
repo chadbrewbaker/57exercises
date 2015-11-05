@@ -2,8 +2,6 @@ import Control.Monad
 import Data.Time
 import System.Locale
 
-
-
 main = do
        putStrLn "What is your current age?"
        age <- getLine
