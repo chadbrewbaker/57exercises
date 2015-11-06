@@ -12,5 +12,5 @@ main = do
        let area = (read roomLength :: Double ) * (read roomWidth :: Double)
        let areaMeters = area*0.009290304
        putStrLn "The area is"
-       putStrLn $ (show area) ++ " square feet"
-       putStrLn $ (show areaMeters) ++ " square meters"
+       putStrLn $ show area ++ " square feet"
+       putStrLn $ show areaMeters ++ " square meters"
