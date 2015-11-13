@@ -1,0 +1,6 @@
+module One where
+
+main = do
+       putStrLn "What is your name?"
+       name <- getLine
+       putStrLn $ "Hello, " ++ name ++ ", nice to meet you!"
