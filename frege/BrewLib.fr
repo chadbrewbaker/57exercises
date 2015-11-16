@@ -1,0 +1,13 @@
+module BrewLib where
+
+powset = filterM (const [True, False])
+trans x = replicateM (length x) x
+z2n n = replicateM n (replicateM n [0,1])
+
+
+
+main = do
+       putStrLn "What is your name?"
+       name <- getLine
+       putStrLn $ "Hello, " ++ name ++ ", nice to meet you!"
+       putStrLn $ show $ trans [1,2]
