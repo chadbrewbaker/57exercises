@@ -1,6 +1,3 @@
-//      putStrLn "What is your name?"
-//       name <- getLine
-//       putStrLn $ "Hello, " ++ name ++ ", nice to meet you!"
 #include <string>
 #include <iostream>
 
