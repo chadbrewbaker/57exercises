@@ -1,5 +1,5 @@
- %define SYSCALL_WRITE 0x2000004
-  %define SYSCALL_EXIT  0x2000001
+%define SYSCALL_WRITE 0x2000004
+%define SYSCALL_EXIT  0x2000001
 
 global start
 start:
@@ -15,5 +15,5 @@ start:
 
 section .data
 str:
-  db `Hello, assembly!\n` ; to use escape sequences, use backticks
+  db `What is your name?\n` ;
 strlen equ $ - str

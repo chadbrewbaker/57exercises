@@ -1,4 +1,7 @@
 #CSharp howto
-dmcs foo.cs
+``bash
+dotnet new
+dotnet restore
+dotnet run
+``
 
-mono foo.exe
