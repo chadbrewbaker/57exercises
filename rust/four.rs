@@ -25,8 +25,8 @@ fn main() {
         .expect("Failed to read line");
 
 
-    println!("Do you {} your {} {} {}? That's hilarious!", verb.trim_right(), adjective.trim_right(),
-                            noun.trim_right(),adverb.trim_right());
+    println!("Do you {} your {} {} {}? That's hilarious!", verb.trim_end(), adjective.trim_end(),
+                            noun.trim_end(),adverb.trim_end());
 
 
 }

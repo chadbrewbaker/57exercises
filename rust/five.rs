@@ -11,14 +11,14 @@ fn main() {
     std::io::stdin().read_line(&mut first_num)
         .expect("Failed to read line");
 
-    let fnum = i32::from_str(first_num.trim_right()).unwrap();
+    let fnum = i32::from_str(first_num.trim_end()).unwrap();
 
     println!("What is the second number?");
     let mut second_num = String::new();
     std::io::stdin().read_line(&mut second_num)
         .expect("Failed to read line");
 
-    let snum = i32::from_str(second_num.trim_right()).unwrap();
+    let snum = i32::from_str(second_num.trim_end()).unwrap();
 
 
     println!("{} + {} = {}", fnum, snum,  fnum+snum);

@@ -10,7 +10,7 @@ fn main() {
     std::io::stdin().read_line(&mut whosaid)
         .expect("Failed to read line");
 
-    println!("{} says, \"{}\"", whosaid.trim_right(), quote.trim_right());
+    println!("{} says, \"{}\"", whosaid.trim_end(), quote.trim_end());
 
 
 }

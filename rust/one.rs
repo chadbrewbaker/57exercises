@@ -5,7 +5,7 @@ fn main() {
     std::io::stdin().read_line(&mut name)
         .expect("Failed to read line");
 
-    println!("Hello {}!", name.trim_right());
+    println!("Hello {}!", name.trim_end());
 
 
 }
